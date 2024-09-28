@@ -1,0 +1,520 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: black;
+    font-family: "Noto Sans JP";
+    font-style: normal;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    position: relative;
+}
+
+* {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    display: contents;
+    color: inherit;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+    color: inherit;
+    border: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+    object-fit: cover;
+}
+
+.img>img {
+    width: 100%;
+    height: 100%;
+}
+
+input {
+    padding: 0;
+}
+
+dl {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.sp {
+    display: none !important;
+}
+
+@media (max-width: 768px) {
+    .sp {
+        display: block !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .pc {
+        display: none !important;
+    }
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.posi-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-cover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-contain {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* フォントサイズ */
+.f-10 {
+    font-size: clamp(10px, 1.3333vw, 10px);
+    /* 750pxに合わせて調整 */
+}
+
+.f-12 {
+    font-size: clamp(10px, 1.6vw, 12px);
+    /* 750pxに合わせて調整 */
+}
+
+.f-14 {
+    font-size: clamp(10px, 1.8666vw, 14px);
+    /* 750pxに合わせて調整 */
+}
+
+.f-16 {
+    font-size: clamp(10px, 2.1333vw, 16px);
+    /* 750pxに合わせて調整 */
+}
+
+.f-18 {
+    font-size: clamp(10px, 2.4vw, 18px);
+    /* 750pxに合わせて調整 */
+}
+
+.f-20 {
+    font-size: clamp(10px, 2.6666vw, 20px);
+    /* 750pxに合わせて調整 */
+}
+
+.f-22 {
+    font-size: clamp(10px, 2.9333vw, 22px);
+    /* 750pxに合わせて調整 */
+}
+
+.f-24 {
+    font-size: clamp(10px, 3.2vw, 24px);
+    /* 750pxに合わせて調整 */
+}
+
+.f-26 {
+    font-size: clamp(10px, 3.4666vw, 26px);
+    /* 750pxに合わせて調整 */
+}
+
+.f-28 {
+    font-size: clamp(10px, 3.7333vw, 28px);
+    /* 750pxに合わせて調整 */
+}
+
+.f-30 {
+    font-size: clamp(10px, 4vw, 30px);
+    /* 750pxに合わせて調整 */
+}
+
+.f-32 {
+    font-size: clamp(10px, 4.2666vw, 32px);
+    /* 750pxに合わせて調整 */
+}
+
+.f-36 {
+    font-size: clamp(10px, 4.8vw, 36px);
+    /* 750pxに合わせて調整 */
+}
+
+.f-40 {
+    font-size: clamp(10px, 5.3333vw, 40px);
+    /* 750pxに合わせて調整 */
+}
+
+.f-45 {
+    font-size: clamp(10px, 6vw, 45px);
+    /* 750pxに合わせて調整 */
+}
+
+.f-50 {
+    font-size: clamp(10px, 6.6666vw, 50px);
+    /* 750pxに合わせて調整 */
+}
+
+.f-60 {
+    font-size: clamp(10px, 8vw, 60px);
+    /* 750pxに合わせて調整 */
+}
+
+.f-70 {
+    font-size: clamp(10px, 9.3333vw, 70px);
+    /* 750pxに合わせて調整 */
+}
+
+.f-80 {
+    font-size: clamp(10px, 10.6666vw, 80px);
+    /* 750pxに合わせて調整 */
+}
+
+.f-100 {
+    font-size: clamp(10px, 12.3333vw, 90px);
+    /* 750pxに合わせて調整 */
+}
+
+/* -----------------------------------------------
+マージン
+----------------------------------------------- */
+.mb-10 {
+    margin-bottom: clamp(10px, 1.3333vw, 10px);
+    /* 750pxに合わせて調整 */
+}
+
+.mb-15 {
+    margin-bottom: clamp(10px, 2vw, 15px);
+    /* 750pxに合わせて調整 */
+}
+
+.mb-20 {
+    margin-bottom: clamp(10px, 2.6666vw, 20px);
+    /* 750pxに合わせて調整 */
+}
+
+.mb-30 {
+    margin-bottom: clamp(10px, 4vw, 30px);
+    /* 750pxに合わせて調整 */
+}
+
+.mb-40 {
+    margin-bottom: clamp(10px, 5.3333vw, 40px);
+    /* 750pxに合わせて調整 */
+}
+
+.mb-50 {
+    margin-bottom: clamp(10px, 6.6666vw, 50px);
+    /* 750pxに合わせて調整 */
+}
+
+.mb-60 {
+    margin-bottom: clamp(10px, 8vw, 60px);
+    /* 750pxに合わせて調整 */
+}
+
+.mb-70 {
+    margin-bottom: clamp(10px, 9.3333vw, 70px);
+    /* 750pxに合わせて調整 */
+}
+
+.mb-80 {
+    margin-bottom: clamp(10px, 10.6666vw, 80px);
+    /* 750pxに合わせて調整 */
+}
+
+.mb-100 {
+    margin-bottom: clamp(10px, 13.3333vw, 100px);
+    /* 750pxに合わせて調整 */
+}
+
+
+/* -----------------------------------------------
+line-hight
+----------------------------------------------- */
+.lh1 {
+    line-height: 1;
+}
+
+.lh1\.25 {
+    line-height: 1.25;
+}
+
+.lh1\.5 {
+    line-height: 1.5;
+}
+
+.lh1\.75 {
+    line-height: 1.75;
+}
+
+.lh2 {
+    line-height: 2;
+}
+
+/* -----------------------------------------------
+letter-spacing
+----------------------------------------------- */
+.ls- {
+    letter-spacing: -0.05em;
+}
+
+.ls0\.1 {
+    letter-spacing: 0.1em;
+}
+
+.ls0\.2 {
+    letter-spacing: 0.2em;
+}
+
+.ls0 {
+    letter-spacing: 0;
+}
+
+
+/* -----------------------------------------------
+文字太さ
+----------------------------------------------- */
+.fbb {
+    font-weight: 900;
+}
+
+.fb {
+    font-weight: 700;
+}
+
+.fsb {
+    font-weight: 600;
+}
+
+.fm {
+    font-weight: 500;
+}
+
+.fr {
+    font-weight: 400;
+}
+
+.fl {
+    font-weight: 300;
+}
+
+/* -----------------------------------------------
+文字位置
+----------------------------------------------- */
+.tc {
+    text-align: center;
+}
+
+.tr {
+    text-align: right;
+}
+
+.tl {
+    text-align: left;
+}
+
+.tj {
+    text-align: justify;
+}
+
+/* -----------------------------------------------
+縦書き
+----------------------------------------------- */
+.ver {
+    -ms-writing-mode: tb-rl;
+    -webkit-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+
+    &.ver_part {
+        text-orientation: sideways;
+    }
+}
+
+/* -----------------------------------------------
+要素の位置指定
+----------------------------------------------- */
+.mc {
+    margin: auto;
+}
+
+.mxc {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myc {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.mr {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.ml {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+/* -----------------------------------------------
+文字色
+----------------------------------------------- */
+.grey {
+    color: #949292;
+}
+
+.black {
+    color: black;
+}
+
+.white {
+    color: white;
+}
+
+.blue {
+    color: #0000EE;
+}
+
+.red {
+    color: #BC3E54;
+}
+
+.yellow {
+    color: #FFE600;
+}
+
+
+/* -----------------------------------------------
+display要素
+----------------------------------------------- */
+.block {
+    display: block;
+}
+
+/* -----------------------------------------------
+  position要素
+  ----------------------------------------------- */
+.relative {
+    position: relative;
+}
+
+/* -----------------------------------------------
+  js要素
+  ----------------------------------------------- */
+.displayOn {
+    opacity: 1 !important;
+    z-index: 3;
+}
+
+.indexOn {
+    z-index: 120 !important;
+}
+
+/* -----------------------------------------------
+  font種類
+  ----------------------------------------------- */
+
+.mincho {
+    font-family: "Yu Mincho", "YuMincho";
+}
+
+.Bahnschrift {
+    font-family: 'Bahnschrift', 'Arial', sans-serif;
+}
+
+/* -----------------------------------------------
+  font-style
+  ----------------------------------------------- */
+
+.italic {
+    font-style: italic;
+}
+
+/* -----------------------------------------------
+  padding
+  ----------------------------------------------- */
+
+.pl-24 {
+    padding-left: calc(24/1280 * 100vw);
+}
+
+/* -----------------------------------------------
+共通パーツ
+----------------------------------------------- */
+
+.onlytop {
+    display: none;
+}
+
+.common {
+    display: none;
+}
+
+a:hover {
+    opacity: 0.8;
+    transition: all .5s ease;
+}
+
+@media (max-width: 768px) {
+    .more_button {
+        padding: calc(40/1280 * 100vw) calc(65/1280 * 100vw);
+        width: calc(700/1280 * 100vw);
+    }
+
+    .more_button .arrow_img {
+        width: calc(188/1280 * 100vw);
+        height: calc(30/1280 * 100vw);
+    }
+}
+
+.b-bottom {
+    border-bottom: 1px solid #0F364A;
+}
+
+.fit {
+    width: fit-content;
+}
+
+.mr-25 {
+    margin-right: calc(25/1280 * 100vw)
+}
+
+.mt-10 {
+    margin-top: calc(10/1280 * 100vw)
+}
