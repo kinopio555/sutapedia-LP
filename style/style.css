@@ -109,102 +109,102 @@ dl {
 
 /* フォントサイズ */
 .f-10 {
-    font-size: clamp(10px, 1.3333vw, 10px);
+    font-size: clamp(10px, 1.3333vw, 10px)!important;
     /* 750pxに合わせて調整 */
 }
 
 .f-12 {
-    font-size: clamp(10px, 1.6vw, 12px);
+    font-size: clamp(10px, 1.6vw, 12px)!important;
     /* 750pxに合わせて調整 */
 }
 
 .f-14 {
-    font-size: clamp(10px, 1.8666vw, 14px);
+    font-size: clamp(10px, 1.8666vw, 14px)!important;
     /* 750pxに合わせて調整 */
 }
 
 .f-16 {
-    font-size: clamp(10px, 2.1333vw, 16px);
+    font-size: clamp(10px, 2.1333vw, 16px)!important;
     /* 750pxに合わせて調整 */
 }
 
 .f-18 {
-    font-size: clamp(10px, 2.4vw, 18px);
+    font-size: clamp(10px, 2.4vw, 18px)!important;
     /* 750pxに合わせて調整 */
 }
 
 .f-20 {
-    font-size: clamp(10px, 2.6666vw, 20px);
+    font-size: clamp(10px, 2.6666vw, 20px)!important;
     /* 750pxに合わせて調整 */
 }
 
 .f-22 {
-    font-size: clamp(10px, 2.9333vw, 22px);
+    font-size: clamp(10px, 2.9333vw, 22px)!important;
     /* 750pxに合わせて調整 */
 }
 
 .f-24 {
-    font-size: clamp(10px, 3.2vw, 24px);
+    font-size: clamp(10px, 3.2vw, 24px)!important;
     /* 750pxに合わせて調整 */
 }
 
 .f-26 {
-    font-size: clamp(10px, 3.4666vw, 26px);
+    font-size: clamp(10px, 3.4666vw, 26px)!important;
     /* 750pxに合わせて調整 */
 }
 
 .f-28 {
-    font-size: clamp(10px, 3.7333vw, 28px);
+    font-size: clamp(10px, 3.7333vw, 28px)!important;
     /* 750pxに合わせて調整 */
 }
 
 .f-30 {
-    font-size: clamp(10px, 4vw, 30px);
+    font-size: clamp(10px, 4vw, 30px)!important;
     /* 750pxに合わせて調整 */
 }
 
 .f-32 {
-    font-size: clamp(10px, 4.2666vw, 32px);
+    font-size: clamp(10px, 4.2666vw, 32px)!important;
     /* 750pxに合わせて調整 */
 }
 
 .f-36 {
-    font-size: clamp(10px, 4.8vw, 36px);
+    font-size: clamp(10px, 4.8vw, 36px)!important;
     /* 750pxに合わせて調整 */
 }
 
 .f-40 {
-    font-size: clamp(10px, 5.3333vw, 40px);
+    font-size: clamp(10px, 5.3333vw, 40px)!important;
     /* 750pxに合わせて調整 */
 }
 
 .f-45 {
-    font-size: clamp(10px, 6vw, 45px);
+    font-size: clamp(10px, 6vw, 45px)!important;
     /* 750pxに合わせて調整 */
 }
 
 .f-50 {
-    font-size: clamp(10px, 6.6666vw, 50px);
+    font-size: clamp(10px, 6.6666vw, 50px)!important;
     /* 750pxに合わせて調整 */
 }
 
 .f-60 {
-    font-size: clamp(10px, 8vw, 60px);
+    font-size: clamp(10px, 8vw, 60px)!important;
     /* 750pxに合わせて調整 */
 }
 
 .f-70 {
-    font-size: clamp(10px, 9.3333vw, 70px);
+    font-size: clamp(10px, 9.3333vw, 70px)!important;
     /* 750pxに合わせて調整 */
 }
 
 .f-80 {
-    font-size: clamp(10px, 10.6666vw, 80px);
+    font-size: clamp(10px, 10.6666vw, 80px)!important;
     /* 750pxに合わせて調整 */
 }
 
 .f-100 {
-    font-size: clamp(10px, 12.3333vw, 90px);
+    font-size: clamp(10px, 12.3333vw, 90px)!important;
     /* 750pxに合わせて調整 */
 }
 
@@ -517,4 +517,45 @@ a:hover {
 
 .mt-10 {
     margin-top: calc(10/1280 * 100vw)
+}
+
+
+
+/* 追加 */
+header {
+    height: 7em;
+}
+.header_wrap1 {
+    font-weight: 400;
+}
+.header_wrap1 div {
+    right: 2.5vw;
+    bottom: 0.7rem;
+}
+.header_wrap2 .header_button {
+    height: 3em;
+}
+.header_wrap2 .header_button {
+    font-weight: 700;
+}
+.header_wrap2 .header_button {
+    width: 14vw;
+}
+.header_wrap2 .header_button {
+    border-radius: 25px;
+}
+.fs-16 {
+    font-size: 1.6vw;
+}
+.fs-12 {
+    font-size: 1.2vw;
+}
+.fs-11 {
+    font-size: 1.1vw;
+}
+.fs-105 {
+    font-size: 1.05vw;
+}
+.fs-095 {
+    font-size: 0.95vw;
 }

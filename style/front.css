@@ -9,7 +9,7 @@ header {
 
 .header_wrap1 {
     position: relative;
-    width: 40%;
+    width: 38vw;
     font-weight: 300;
 }
 
@@ -17,34 +17,32 @@ header {
     position: absolute;
     right: 0.9rem;
     bottom: 0.5rem;
-    font-size: 1.1rem;
+    font-size: 1.6vw;
 }
 
 .header_wrap2 {
     background-color: #0072BD;
-    width: 60%;
+    width: 42vw;
     font-weight: 300;
-    padding-left: 4rem;
-    padding-top: 1rem;
-    position: relative;
+    padding: 1em 6vw;
+    padding-right: 14vw;
 }
 
 .header_wrap2 .noto_serif_jp {
     display: flex;
     color: #0072BD;
-    position: absolute;
-    right: 28%;
+    justify-content: flex-end;
 }
 
-.header_wrap2 p {
-    position: absolute;
-    bottom: 8%;
-}
 
 .header_wrap2 span {
     color: #fff;
     font-weight: 200;
-    font-size: 0.8rem;
+    text-align: right;
+}
+
+.header_wrap2 p {
+    text-align: right;
 }
 
 .header_wrap2 .header_button {
