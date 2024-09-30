@@ -523,7 +523,9 @@ a:hover {
 
 /* 追加 */
 header {
+    z-index: 1;
     height: 7em;
+    box-shadow: 0px 20px 22px -3px rgba(0, 0, 0, 0.3);
 }
 .header_wrap1 {
     font-weight: 400;
@@ -536,13 +538,16 @@ header {
     height: 3em;
 }
 .header_wrap2 .header_button {
-    font-weight: 700;
+    font-weight: 350;
 }
 .header_wrap2 .header_button {
     width: 14vw;
 }
 .header_wrap2 .header_button {
     border-radius: 25px;
+}
+.fs-3 {
+    font-size: 3vw;
 }
 .fs-16 {
     font-size: 1.6vw;
@@ -555,6 +560,9 @@ header {
 }
 .fs-105 {
     font-size: 1.05vw;
+}
+.fs-100 {
+    font-size: 1vw;
 }
 .fs-095 {
     font-size: 0.95vw;
