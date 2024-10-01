@@ -178,7 +178,7 @@ header {
 
 .achieve_container {
     text-align: center;
-    padding: 3em 5em; 
+    padding: 6vw 0vw;
 }
 
 .bg-skyblue {
@@ -186,12 +186,12 @@ header {
 }
 
 .achieve_container h1 {
-    font-size: 2.5rem;
+    font-size: 3.2vw;
     font-weight: 300;
 }
 
 .achieve_wrap.mb-20 {
-    font-size: 2rem;
+    font-size: 2.3vw;
     font-weight: 300;
     text-align: center;
 }
@@ -199,18 +199,19 @@ header {
 .achieve_wrap1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 60%;
+    width: 46%;
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
     font-weight: 400;
+    font-size: 1.3vw;
 }
 
 .achieve_wrap2 {
-    width: 70vw;
+    width: 65vw;
     display: flex;
     margin: 0 auto;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .achieve_box {
@@ -218,30 +219,31 @@ header {
     border-radius: 5px;
     padding: 0.1rem 1rem;
     background-color: #fff;
+    flex: 1;
+    padding: 1.1vw 0;
+    font-size: 1.4vw;
+    font-weight: 400;
 }
 
 .achieve_box h3 span {
     border-bottom: 0.2rem solid #0072BF;
     font-weight: 350;
+    font-size: 1.8vw;
 }
 
 .achieve_box .mb-15 {
     font-weight: 400;
 }
 
-.achieve_box .mb-20 {
-    font-weight: 400;
-}
-
 .achieve_box p:nth-of-type(2) {
     font-weight: 400;
-    font-size: 1.1rem;
 }
 
 .achieve_box p span {
     display: inline-block;
     background: linear-gradient(transparent 60%, #FCEE21 60%);
     line-height: 1.3;
+    font-size: 1.7vw;
 }
 
 .achieve_box div {
@@ -268,6 +270,7 @@ header {
 
 .achieve_container .mb-30 {
     font-weight: 300;
+    font-size: 2.2vw;
 }
 
 .achieve_container .achieve_item {
@@ -294,6 +297,7 @@ header {
     font-family: "bahnschrift"; 
     src: url("../font/bahnschrift.ttf") format("truetype"); 
     font-display: swap; 
+    font-size: 2.6vw;
 }
 
 .achieve_wrap .slash {
@@ -305,22 +309,20 @@ header {
     display: inline-block;
     background: linear-gradient(transparent 60%, #FCEE21 60%);
     line-height: 0.8;
-}
-
-.achieve_box .mb-20.no_mb-20 {
-    margin-bottom: 0;
+    font-size: 3.2vw;
 }
 
 .achieve_box:nth-of-type(2) {
-    margin: 0 0.5rem;
+    margin: 0 0.5vw;
 }
 
 .achieve_box p:nth-of-type(4) {
     margin-bottom: 1rem;
+    font-size: 1vw;
 }
 
 .consul_container {
-    padding: 3em 8em;
+    padding: 4.5vw 8vw;
     text-align: center;
     padding-bottom: 3rem;
 }
@@ -329,6 +331,7 @@ header {
     color: #fff;
     border-bottom: 0.15rem solid #FFFF00;
     font-weight: 150;
+    font-size: 2.3vw;
 }
 
 .bg-yellow {
@@ -340,9 +343,9 @@ header {
 }
 
 .consul_wrap .button {
-    font-weight: 300;
-    width: 25vw;
-    height: 12vh;
+    font-weight: 500;
+    padding: 1.5vw 6vw;
+    font-size: 1.3vw;
 }
 
 .consul_wrap div:nth-of-type(1) {
@@ -351,19 +354,22 @@ header {
 
 .consul_wrap div:nth-of-type(2) {
     margin-left: 0.7rem;
+    background-color: #8EE0FF;
 }
 
 .button {
-    border-radius: 30px;
+    border-radius: 40px;
 }
 
 .consul_container p {
     color: #fff;
     font-weight: 200;
+    font-size: 1.2vw;
+    margin-bottom: 2vw;
 }
 
 .reason_container {
-    padding: 3em 11em;
+    padding: 5vw 17vw;
 }
 
 .reason_container > div:nth-of-type(1) {
@@ -372,19 +378,24 @@ header {
 
 .reason_container .reason_wrap h1 {
     font-weight: 300;
+    font-size: 3.8vw;
 }
 
 .reason_container .reason_wrap p {
     font-weight: 400;
+    font-size: 1.5vw;
 }
 
 .reason_wrap .reason_box1 {
     display: flex;
 }
 
+.reason_container > div:last-child {
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
 .reason1 > div:nth-of-type(1) {
-    width: 70%;
-    height: 100%;
+    width: 36vw;
 }
 
 .reason2 > div:nth-of-type(2) {
@@ -393,34 +404,71 @@ header {
 }
 
 .reason3 > div:nth-of-type(1) {
-    width: 85%;
-    height: 11rem;
+    width: 42vw;
 }
 
 .reason4 > div:nth-of-type(2) {
-    width: 53%;
-    height: 11.5rem;
+    width: 28vw;
 }
 
 .reason5 > div:nth-of-type(1) {
-    width: 80%;
-    height: 12rem;
+    width: 40vw;
 }
 
 .reason6 > div:nth-of-type(2) {
-    width: 46%;
-    height: 12rem;
+    width: 25vw;
+}
+
+.reason1 div > div {
+    width: 35vw;
+}
+
+.reason1 h2 {
+    margin-left: 4vw;
+}
+.reason1 p {
+    margin-left: 4vw;
+}
+/* .reason2 h2 {
+    margin-left: 4vw;
+}
+.reason2 p {
+    margin-left: 4vw;
+} */
+.reason3 h2 {
+    margin-left: 2vw;
+}
+.reason3 p {
+    margin-left: 2vw;
+}
+.reason4 h2 {
+    margin-left: 4vw;
+}
+.reason4 p {
+    margin-right: 5vw;
+}
+.reason5 h2 {
+    margin-left: 4vw;
+}
+.reason5 p {
+    margin-left: 4vw;
+}
+.reason6 h2 {
+    margin-left: 4vw;
+}
+.reason6 p {
+    margin-right: 3vw;
+}
+
+.reason_wrap .bg-skyblue img {
+    position: absolute;
+    bottom: 0;
 }
 
 .reason_box1 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-
-
-.reason_box1 .reason_item p {
-    margin-left: 1rem;
 }
 
 .reason_box1 .reason_item > div {
@@ -430,9 +478,9 @@ header {
 }
 
 .reason_box1 .reason_item > div h2 {
-    margin-left: 1rem;
     margin-top: 0.8rem;
     font-weight: 300;
+    font-size: 1.7vw;
 }
 
 .reason_wrap .reason_box2 {
@@ -445,11 +493,6 @@ header {
     height: 100%;
     object-fit: cover;
     object-position: 0% 0%;
-}
-
-
-.reason_box2 .reason_item p {
-    margin-right: 1rem;
 }
 
 .reason_box2 .reason_item > div {
@@ -465,6 +508,7 @@ header {
     font-weight: 300;
     margin-left: 0.3rem;
     margin-top: 1.2rem;
+    font-size: 1.7vw;
 }
 
 .reason_item div div {
@@ -475,13 +519,13 @@ header {
 .reason_wrap .bg-blue.noto_serif_jp {
     color: #fff;
     text-align: center;
-    padding: 0.2rem 0;
+    padding: 0.4vw 0;
     font-weight: 100;
+    font-size: 2.2vw;
 }
 
 .reason_wrap .bg-skyblue > div {
     display: flex;
-    align-items: center;
 }
 
 .reason_wrap .bg-skyblue div div:nth-of-type(1) {
@@ -490,7 +534,8 @@ header {
 }
 
 .reason_wrap .bg-skyblue div div:nth-of-type(2) p:nth-of-type(1) {
-    padding-top: 2.5rem;
+    padding-top: 2.5vw;
+    font-size: 1.3vw;
 }
 
 .reason_wrap .bg-skyblue div div:nth-of-type(2) {
@@ -501,6 +546,7 @@ header {
 
 .reason_item h2 .bahnschrift {
     font-weight: 650;
+    font-size: 4vw;
 }
 
 .bg-gray {
@@ -508,33 +554,39 @@ header {
 }
 
 .message_container {
-    padding: 3em;
+    padding: 6vw 0;
 }
 
 .message_container h1 {
     text-align: center;
     font-weight: 300;
+    font-size: 2.2vw;
 }
 
 .message_wrap {
     display: flex;
     margin: 0 auto;
-    width: 70%;
+    width: 68vw;
 }
 
 .message_wrap .bg-white {
-    padding: 1.5rem 2rem;
+    padding: 1.5vw 2vw;
     font-weight: 400;
     padding-left: 4rem;
     padding-bottom: 0;
+    font-size: 1vw;
 }
 
 .message_wrap div:nth-of-type(1) {
     background-color: #B3B3B3;
-    width: 33rem;
-    height: 22rem;
-    left: 2rem;
+    width: 25vw;
+    height: 26vw;
+    left: 2.5vw;
     z-index: 10;
+}
+
+.message_wrap .bg-white.lh2 p {
+    margin-bottom: 2vw;
 }
 
 .flow_container {
@@ -1032,45 +1084,12 @@ h3 {
     display: none;
 }
 
-@media screen and (min-width: 1366px) {
-    .reason1 div:nth-of-type(1) {
-        width: 55%;
-    }
-    .reason2 div:nth-of-type(2) {
-        width: 63%;
-        height: 32rem;
-    }
-    .reason_box2 .reason_item p {
-        margin-right: 9rem;
-    }
-    .reason3 > div:nth-of-type(1) {
-        height: 20rem;
-    }
-    .reason4 > div:nth-of-type(2) {
-        height: 19rem;
-    }
-    .reason5 > div:nth-of-type(1) {
-        width: 70%;
-        height: 21rem;
-    }
-    .reason6 > div:nth-of-type(2) {
-        width: 45%;
-        height: 20rem;
-    }
-}
-
 @media screen and (max-width: 850px) {
     .header_wrap2 .header_button {
         height: 5vh;
     }
-    .achieve_wrap2 {
-        width: 83vw;
-    }
     .achieve_box {
         padding: 0.1rem 0.3rem;
-    }
-    .reason_container {
-        padding: 3em 7em;
     }
     .reason_wrap .bg-skyblue > div {
         align-items: end;
