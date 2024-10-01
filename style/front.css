@@ -10,7 +10,7 @@ header {
 .header_wrap1 {
     position: relative;
     width: 38vw;
-    font-weight: 300;
+    font-weight: 900;
 }
 
 .header_wrap1 div {
@@ -37,7 +37,7 @@ header {
 
 .header_wrap2 span {
     color: #fff;
-    font-weight: 200;
+    font-weight: 500;
     text-align: right;
     letter-spacing: 0;
 }
@@ -70,7 +70,7 @@ header {
 
 .top_container h1 {
     margin: 0;
-    font-weight: 300;
+    font-weight: 800;
     margin-left: 0.3rem;
     margin-bottom: 3vw;
 }
@@ -105,17 +105,16 @@ header {
 .worries_wrap1 {
     background-color: #fff;
     text-align: center;
-    padding-top: 0.1rem;
-    padding-bottom: 2rem;
+    padding: 2vw 0;
 }
 
 .worries_wrap1 p {
-    font-weight: 340;
+    font-weight: 700;
 }
 
 .worries_wrap1 h2 {
     color: #0071BC;
-    font-weight: 300;
+    font-weight: 700;
     font-size: 3vw;
 }
 
@@ -138,7 +137,7 @@ header {
 }
 
 .worries_wrap2 p {
-    font-weight: 350;
+    font-weight: 850;
     padding: 0 0.5rem;
     padding-right: 2vw;
     font-size: 1.5vw;
@@ -187,12 +186,13 @@ header {
 
 .achieve_container h1 {
     font-size: 3.2vw;
-    font-weight: 300;
+    font-weight: 900;
+    margin-bottom: 1.5vw;
 }
 
 .achieve_wrap.mb-20 {
     font-size: 2.3vw;
-    font-weight: 300;
+    font-weight: 800;
     text-align: center;
 }
 
@@ -203,7 +203,8 @@ header {
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
-    font-weight: 400;
+    margin-bottom: 1.5vw;
+    font-weight: 900;
     font-size: 1.3vw;
 }
 
@@ -217,26 +218,25 @@ header {
 .achieve_box {
     border: 0.2rem solid #0072BF;
     border-radius: 5px;
-    padding: 0.1rem 1rem;
     background-color: #fff;
     flex: 1;
     padding: 1.1vw 0;
     font-size: 1.4vw;
-    font-weight: 400;
+    font-weight: 900;
 }
 
 .achieve_box h3 span {
     border-bottom: 0.2rem solid #0072BF;
-    font-weight: 350;
+    font-weight: 900;
     font-size: 1.8vw;
 }
 
 .achieve_box .mb-15 {
-    font-weight: 400;
+    font-weight: 900;
 }
 
 .achieve_box p:nth-of-type(2) {
-    font-weight: 400;
+    font-weight: 900;
 }
 
 .achieve_box p span {
@@ -268,9 +268,10 @@ header {
     height: 100%;
 }
 
-.achieve_container .mb-30 {
-    font-weight: 300;
+.achieve_container .achieve_wrap1+p {
+    font-weight: 900;
     font-size: 2.2vw;
+    margin-bottom: 2.5vw;
 }
 
 .achieve_container .achieve_item {
@@ -317,7 +318,6 @@ header {
 }
 
 .achieve_box p:nth-of-type(4) {
-    margin-bottom: 1rem;
     font-size: 1vw;
 }
 
@@ -330,7 +330,7 @@ header {
 .consul_container h1 span {
     color: #fff;
     border-bottom: 0.15rem solid #FFFF00;
-    font-weight: 150;
+    font-weight: 700;
     font-size: 2.3vw;
 }
 
@@ -343,7 +343,7 @@ header {
 }
 
 .consul_wrap .button {
-    font-weight: 500;
+    font-weight: 900;
     padding: 1.5vw 6vw;
     font-size: 1.3vw;
 }
@@ -363,7 +363,7 @@ header {
 
 .consul_container p {
     color: #fff;
-    font-weight: 200;
+    font-weight: 700;
     font-size: 1.2vw;
     margin-bottom: 2vw;
 }
@@ -377,13 +377,22 @@ header {
 }
 
 .reason_container .reason_wrap h1 {
-    font-weight: 300;
+    font-weight: 900;
     font-size: 3.8vw;
 }
 
 .reason_container .reason_wrap p {
-    font-weight: 400;
-    font-size: 1.5vw;
+    font-weight: 900;
+    font-size: 1.05vw;
+}
+
+.reason_container .reason_wrap h1+p {
+    font-size: 1.4vw;
+    font-weight: 900;
+}
+
+.reason_wrap .bg-skyblue div p:nth-of-type(2) {
+    font-size: 1.2vw;
 }
 
 .reason_wrap .reason_box1 {
@@ -395,28 +404,28 @@ header {
 }
 
 .reason1 > div:nth-of-type(1) {
-    width: 36vw;
+    width: 50vw;
 }
 
 .reason2 > div:nth-of-type(2) {
-    width: 75%;
-    height: 17rem;
+    width: 50vw;
 }
 
 .reason3 > div:nth-of-type(1) {
-    width: 42vw;
+    width: 55vw;
+    height: 20vw;
 }
 
 .reason4 > div:nth-of-type(2) {
-    width: 28vw;
+    width: 35vw;
 }
 
 .reason5 > div:nth-of-type(1) {
-    width: 40vw;
+    width: 55vw;
 }
 
 .reason6 > div:nth-of-type(2) {
-    width: 25vw;
+    width: 29vw;
 }
 
 .reason1 div > div {
@@ -460,9 +469,15 @@ header {
     margin-right: 3vw;
 }
 
+.reason2 > div > p {
+    margin-bottom: 3vw;
+}
+
 .reason_wrap .bg-skyblue img {
     position: absolute;
     bottom: 0;
+    max-height: 20vw;
+    left: 2vw;
 }
 
 .reason_box1 img {
@@ -479,8 +494,9 @@ header {
 
 .reason_box1 .reason_item > div h2 {
     margin-top: 0.8rem;
-    font-weight: 300;
-    font-size: 1.7vw;
+    font-weight: 900;
+    font-size: 1.55vw;
+    margin-bottom: 0.5vw;
 }
 
 .reason_wrap .reason_box2 {
@@ -505,10 +521,11 @@ header {
 
 .reason_box2 .reason_item > div h2 {
     margin-right: 1rem;
-    font-weight: 300;
+    font-weight: 900;
     margin-left: 0.3rem;
     margin-top: 1.2rem;
     font-size: 1.7vw;
+    margin-bottom: 0.5vw;
 }
 
 .reason_item div div {
@@ -520,7 +537,7 @@ header {
     color: #fff;
     text-align: center;
     padding: 0.4vw 0;
-    font-weight: 100;
+    font-weight: 900;
     font-size: 2.2vw;
 }
 
@@ -535,17 +552,18 @@ header {
 
 .reason_wrap .bg-skyblue div div:nth-of-type(2) p:nth-of-type(1) {
     padding-top: 2.5vw;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
+    font-weight: 900;
 }
 
 .reason_wrap .bg-skyblue div div:nth-of-type(2) {
-    margin-right: 3rem;
-    margin-left: 1rem;
+    margin-right: 3vw;
+    margin-left: 0;
     flex: 6;
 }
 
 .reason_item h2 .bahnschrift {
-    font-weight: 650;
+    font-weight: 700;
     font-size: 4vw;
 }
 
@@ -559,8 +577,8 @@ header {
 
 .message_container h1 {
     text-align: center;
-    font-weight: 300;
-    font-size: 2.2vw;
+    font-weight: 900;
+    font-size: 2.5vw;
 }
 
 .message_wrap {
@@ -587,27 +605,28 @@ header {
 
 .message_wrap .bg-white.lh2 p {
     margin-bottom: 2vw;
+    font-weight: 900;
 }
 
 .flow_container {
-    padding-top: 3em;
-    padding-bottom: 6em;
+    padding: 5vw 16vw;
 }
 
 .flow_container h1 {
     text-align: center;
-    font-weight: 300;
+    font-weight: 900;
+    font-size: 2.5vw;
 }
 
 .flow_wrap {
     display: flex;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 
 .flow_wrap > div {
-    margin-right: 0.5rem;
     flex: 1;
+    margin-right: 0.8vw;
 }
 
 .flow_wrap > div:nth-of-type(4) {
@@ -622,40 +641,44 @@ header {
     z-index: 1;
     width: 40%;
     margin: 0 auto;
+    font-size: 3.5vw;
 }
 
 
 .flow_wrap > div:nth-of-type(1) .flow_box {
     border: 0.1rem solid #0072BF;
     border-radius: 10px;
-    padding: 0.9rem 0;
-    padding-bottom: 2.1rem;
+    padding: 1.8vw 0;
+    padding-bottom: 3vw;
 }
 
 .flow_wrap > div:nth-of-type(2) .flow_box {
     border: 0.1rem solid #0072BF;
     border-radius: 10px;
-    padding: 0.9rem 0;
+    padding: 1.8vw 0;
     padding-bottom: 1.1rem;
 }
 
 .flow_wrap > div:nth-of-type(3) .flow_box {
     border: 0.1rem solid #0072BF;
     border-radius: 10px;
-    padding: 0.9rem 0;
+    padding: 1.8vw 0;
     padding-bottom: 1.1rem;
 }
 
 .flow_wrap > div:nth-of-type(4) .flow_box {
     border: 0.1rem solid #0072BF;
     border-radius: 10px;
-    padding: 0.9rem 0;
+    padding: 1.8vw 0;
     padding-bottom: 2.1rem;
 }
 
 .flow_box h2 {
     font-weight: 400;
     text-align: center;
+    z-index: 1;
+    font-size: 1.2vw;
+    font-weight: 900;
 }
 
 .flow_box h2::after {
@@ -665,6 +688,39 @@ header {
     height: 0.1rem;
     background-color: #0071BC;
     margin: 0.2rem auto;
+}
+
+.flow_wrap > div:nth-of-type(1) .flow_box h2+div {
+    width: 7vw;
+    margin: 0 auto;
+    border-radius: 80px;
+    padding: 2vw 1vw;
+    margin-bottom: 1.5vw;
+    margin-top: 1.5vw;
+}
+.flow_wrap > div:nth-of-type(2) .flow_box h2+div {
+    width: 6vw;
+    margin: 0 auto;
+    border-radius: 80px;
+    padding: 1.5vw 1.8vw;
+    margin-bottom: 1.5vw;
+    margin-top: 1.5vw;
+}
+.flow_wrap > div:nth-of-type(3) .flow_box h2+div {
+    width: 5.5vw;
+    margin: 0 auto;
+    border-radius: 80px;
+    padding: 2vw 2.1vw;
+    margin-bottom: 1.5vw;
+    margin-top: 1.5vw;
+}
+.flow_wrap > div:nth-of-type(4) .flow_box h2+div {
+    width: 7.5vw;
+    margin: 0 auto;
+    border-radius: 80px;
+    padding: 2.2vw 1vw;
+    margin-bottom: 1.5vw;
+    margin-top: 1.5vw;
 }
 
 .flow_box img {
@@ -710,24 +766,27 @@ header {
 
 .flow_box > p {
     text-align: center;
-    font-weight: 450;
+    font-weight: 800;
+    font-size: 0.95vw;
 }
 
 .course_container {
-    padding: 3em;
+    padding: 5vw 17vw;
 }
 
 .course_container h1 {
-    font-weight: 300;
+    font-weight: 900;
+    font-size: 2.5vw;
     text-align: center;
 }
 
 .course_container table {
     margin: 0 auto;
-    margin-bottom: 1rem;
+    margin-bottom: 1vw;
     border-collapse:collapse;
-    font-weight: 500;
-    width: 92%; 
+    font-size: 1.1vw;
+    font-weight: 900;
+    width: 100%; 
     table-layout: fixed;
 }
 
@@ -748,10 +807,11 @@ header {
 }
 
 .course_wrap > div:nth-of-type(1) {
-    border: 0.1rem solid #999999;
+    border: 0.1vw solid #999999;
     border-radius: 20px;
     height: 200%;
-    padding: 0.1rem 0.5rem;
+    padding: 0.15vw 0.5vw;
+    font-size: 0.8vw;
 }
 
 .bg-white {
@@ -764,13 +824,14 @@ header {
 
 .course_container .no-border {
     border: none;
+    width: 12vw;
 }
 
 .course_container .course_wrap {
     display: flex;
-    padding: 1.2rem 0.5rem;
+    padding: 1vw 0.5vw;
     padding-right: 0;
-    padding-bottom: 0.3rem;
+    padding-bottom: 0;
 }
 
 .course_container .course_box {
@@ -778,21 +839,27 @@ header {
     justify-content: flex-end;
 }
 
+.course_wrap.difficult {
+    padding-top: 0;
+}
+
 .center {
     text-align: center;
 }
 
 .course_container table th {
-    padding: 1rem 3rem;
-    font-weight: 350;
+    padding: 1.3vw 0;
+    font-weight: 900;
 }
 
 .course_container table .symbol {
     font-weight: 900;
+    font-size: 1.8vw;
 }
 
 .course_container table td:nth-of-type(1) {
-    padding: 0.8rem;
+    padding: 1.2vw 1.5vw;
+    padding-right: 0;
 }
 
 .course_container table .kozuka_gothic.blue_letters {
@@ -801,34 +868,46 @@ header {
 
 .course_container table .square_bracket {
     font-weight: 100;
+    font-size: 3vw;
+    bottom: 1vw;
 }
 
 .course_container > div div {
     text-align: center;
-    font-weight: 400;
+    font-weight: 900;
 }
 
 .course_wrap > div:nth-of-type(2) > div:nth-of-type(1) {
-    font-weight: 450;
-    padding-left: 0.5rem;
+    font-weight: 900;
     bottom: 0.2rem;
+    font-size: 0.7vw;
 }
 
 .course_box > div:nth-of-type(2) > div:nth-of-type(2) {
     text-align: right;
+    font-size: 0.7vw;
+    font-weight: 900;
+}
+
+.course_box div:nth-of-type(2) div:nth-of-type(1) {
+    font-size: 0.8vw;
 }
 
 .course_wrap > div:nth-of-type(2) > div:nth-of-type(1) > span {
     font-weight: 330;
 }
 
-.course_box .square_bracket {
-    bottom: 1rem;
+.course_wrap div:nth-of-type(2) {
+    margin-left: 0.5vw;
+}
+
+.course_wrap > div:nth-of-type(2) > div:nth-of-type(1) span {
+    font-size: 1.5vw;
+    font-weight: 900;
 }
 
 .course_container > div > div {
     text-align: right;
-    margin-right: 2.5rem;
 }
 
 .course_box div:nth-of-type(2) {
@@ -836,16 +915,19 @@ header {
 }
 
 .course_box div:nth-of-type(2) span {
-    font-weight: 330;
+    font-weight: 900;
+    font-size: 1.3vw;
 }
 
 .successful_container {
-    padding: 3em 8em;
+    padding: 5vw 17vw;
 }
 
 .successful_container h1 {
     font-weight: 300;
     text-align: center;
+    font-weight: 900;
+    font-size: 2.5vw;
 }
 
 .successful_container img {
@@ -854,63 +936,81 @@ header {
 }
 
 .successful_container > div {
-    width: 80vw;
+    width: 100%;
     margin: 0 auto;
 }
 
 .successful_container > div > div:nth-of-type(1) {
     display: flex;
+    font-size: 1vw;
+    font-weight: 700;
 }
 
 .successful_container > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) {
-    width: 20%;
+    width: 12vw;
     height: 10%;
 }
 
 .successful_container > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) {
-    width: 48%;
+    width: 27vw;
     height: 10%;
 }
 
 .successful_container > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) {
-    width: 22%;
+    width: 12vw;
     height: 10%;
 }
 
 .successful_container > div > div:nth-of-type(1) > div:nth-of-type(1) {
-    left: 2.5rem;
+    left: 3.5vw;
     z-index: 5;
 }
 
 .successful_container .bg-skyblue {
-    padding: 1rem 4rem;
+    padding: 2.5vw 5vw;
 }
 
 .successful_container .bg-skyblue h2 {
-    font-weight: 400;
-}
-
-.successful_container .bg-skyblue p {
-    font-weight: 400;
+    font-weight: 900;
+    font-size: 1.2vw;
 }
 
 .successful_wrap div:nth-of-type(2) div:nth-of-type(2) {
-    padding: 0.7rem 4rem;
-    font-weight: 400;
+    padding: 0.7vw 5vw;
+    font-weight: 900;
     background-color: #AED5FF;
+    font-size: 1.2vw;
 }
 
+.successful_wrap div:nth-of-type(2) div:last-child p {
+    margin-bottom: 2vw;    
+}
+
+.successful_wrap div:nth-of-type(2) div:last-child p:last-child {
+    margin-bottom: 0;
+}
+
+.successful_box p {
+    margin-bottom: 2vw;
+}
+
+.successful_wrap p:last-child {
+    margin-bottom: 0;
+}
+
+
 .successful_wrap div:nth-of-type(2) div:nth-of-type(3) {
-    padding: 1rem 4rem;
-    font-weight: 400;
+    padding: 2vw 5vw;
+    padding-bottom: 0;
 }
 
 .present_container {
-    padding: 3em 4em;
+    padding: 5vw 17vw;
 }
 
 .present_container h1 {
-    font-weight: 100;
+    font-weight: 900;
+    font-size: 3.8vw;
     text-align: center;
     color: #FEF77C;
 }
@@ -926,15 +1026,11 @@ header {
 
 .present_container .present_box {
     border-radius: 10px;
-    padding: 1rem 0.8rem;
+    padding: 1.5vw 0.9vw;
 }
 
 .present_box .present_item > div:nth-of-type(1) {
-    width: 4.7rem;
-}
-
-.present_box .mb-10 {
-    font-weight: 400;
+    width: 6vw;
 }
 
 .present_box .present_item > div img {
@@ -944,12 +1040,15 @@ header {
 }
 
 .present_box .present_item .blue_letters span {
-    font-weight: 200;
+    font-weight: 800;
+    font-size: 2.8vw;
 }
 
 .present_box .present_item .blue_letters {
-    margin-left: 0.8rem;
-    font-weight: 300;
+    margin-left: 1vw;
+    font-weight: 900;
+    font-size: 1.4vw;
+    letter-spacing: 0;
 }
 
 .present_wrap .present_box .present_item {
@@ -961,16 +1060,20 @@ header {
 .present_wrap .present_box p:nth-of-type(1) {
     text-align: center;
     border-bottom: 0.15rem solid #0072BD;
-    padding-bottom: 1.1rem;
+    padding-top: 1.1vw;
+    padding-bottom: 1.3vw;
+    font-weight: 900;
+    font-size: 1vw;
 }
 
 .present_wrap .present_box > p:nth-of-type(2) {
     padding: 0 0.5rem;
-    font-weight: 400;
+    font-weight: 800;
+    font-size: 0.8vw;
 }
 
 .present_wrap .present_box.bg-white {
-    width: 40vw;
+    width: 29vw;
 } 
 
 .present_wrap {
@@ -978,19 +1081,21 @@ header {
 }
 
 .question_container {
-    padding: 3em 8em;
+    padding: 5vw 17vw;
     padding-bottom: 7rem;
 }
 
 .question_container h1 {
-    font-weight: 300;
     text-align: center;
+    font-weight: 900;
+    font-size: 2.5vw;
 }
 
 .question_wrap {
     display: flex;
-    padding: 1rem;
+    padding: 0.5vw 1.5vw;
     justify-content: space-between;
+    margin-bottom: 1.2vw;
 }
 
 .question_wrap .bahnschrift {
@@ -999,20 +1104,23 @@ header {
 
 .question_container .bahnschrift {
     font-weight: 800;
+    font-size: 3.5vw;
 }
 
 .question_container p {
-    width: 90%;
+    width: 93%;
+    font-weight: 900;
+    font-size: 1.2vw;
 }
 
 .answer_wrap {
     display: flex;
-    padding: 1rem;
+    padding: 0.5vw 1.5vw;
     justify-content: space-between;
 }
 
 .information_container {
-    padding: 3rem 10rem;
+    padding: 5vw 17vw;
 }
 
 .information_container {
@@ -1020,19 +1128,18 @@ header {
 }
 
 .information_container h1 {
-    font-weight: 300;
+    font-weight: 900;
+    font-size: 2.5vw;
     text-align: center;
     margin-top: 0;
 }
 
-.information_wrap {
-    left: 3rem;
-}
-
 .information_wrap table {
-    font-weight: 400;
+    font-weight: 900;
+    font-size: 0.9vw;
     border-bottom: 0.1rem solid #000;
-    padding-bottom: 1.2rem;
+    padding-bottom: 1.2vw;
+    width: 100%;
 }
 
 .information_wrap table tr td {
@@ -1045,25 +1152,28 @@ header {
 }
 
 .information_wrap table tr td:nth-of-type(2) {
-    padding-left: 0.5rem;
+    font-weight: 600;
 }
 
 .information_box {
-    font-weight: 350;
+    font-size: 0.9vw;
+    font-weight: 500;
 }
 
 .information_item {
     display: flex;
-    padding-top: 1.5rem;
+    padding-top: 1.5vw;
+    font-size: 1vw;
 }
 
 .information_item span {
-    font-weight: 300;
+    font-weight: 500;
+    font-size: 1.3vw;
 }
 
 .information_item > div:nth-of-type(2) {
     position: absolute;
-    right: 3rem;
+    right: 0;
 }
 
 h1 {
@@ -1088,20 +1198,11 @@ h3 {
     .header_wrap2 .header_button {
         height: 5vh;
     }
-    .achieve_box {
-        padding: 0.1rem 0.3rem;
-    }
     .reason_wrap .bg-skyblue > div {
         align-items: end;
     }
     .reason_wrap .bg-skyblue div div:nth-of-type(2) p:nth-of-type(1) {
         padding-top: 1rem;
-    }
-    .message_wrap {
-        width: 90%;
-    }
-    .flow_wrap {
-        width: 85%;
     }
     .consul_container {
         padding: 3em 7em;
@@ -1112,30 +1213,8 @@ h3 {
     .course_wrap > div:nth-of-type(1) {
         padding: 0.05rem 0.1rem;
     }
-    .successful_container {
-        padding: 3rem;
-    }
-    .successful_container > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) {
-        width: 35%;
-    }
-    .successful_container > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) {
-        width: 75%;
-    }
-    .successful_container > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) {
-        width: 35%;
-    }
-    .present_container {
-        padding: 3rem 2.5rem;
-    }
-    .present_box .present_item > div:nth-of-type(1) {
-        width: 4rem;
-    }
-    .question_container p {
-        font-weight: 400;
-        width: 90%;
-    }
     .information_container {
-        padding: 3rem 5rem;
+        padding: 5vw 17vw;
     }
 }
 

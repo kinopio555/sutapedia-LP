@@ -527,18 +527,13 @@ header {
     height: 7em;
     box-shadow: 0px 20px 22px -3px rgba(0, 0, 0, 0.3);
 }
-.header_wrap1 {
-    font-weight: 400;
-}
 .header_wrap1 div {
     right: 2.5vw;
     bottom: 0.7rem;
 }
 .header_wrap2 .header_button {
     height: 3em;
-}
-.header_wrap2 .header_button {
-    font-weight: 350;
+    font-weight: 900;
 }
 .header_wrap2 .header_button {
     width: 14vw;
