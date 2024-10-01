@@ -72,11 +72,11 @@ header {
     margin: 0;
     font-weight: 300;
     margin-left: 0.3rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 3vw;
 }
 
 .top_container .top_wrap {
-    width: 40%;
+    width: 41%;
     right: 15%;
 }
 
@@ -141,6 +141,7 @@ header {
     font-weight: 350;
     padding: 0 0.5rem;
     padding-right: 2vw;
+    font-size: 1.5vw;
 }
 
 .worries_wrap2 div {
@@ -168,7 +169,7 @@ header {
 }
 
 .worries_box p {
-    font-size: 1.5vw;
+    font-size: 1.4vw;
 }
 
 .blue_letters {
