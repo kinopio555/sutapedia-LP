@@ -324,7 +324,7 @@ header {
 .consul_container {
     padding: 4.5vw 8vw;
     text-align: center;
-    padding-bottom: 3rem;
+    padding-bottom: 4vw;
 }
 
 .consul_container h1 span {
@@ -369,7 +369,7 @@ header {
 }
 
 .reason_container {
-    padding: 5vw 17vw;
+    padding: 6vw 17vw;
 }
 
 .reason_container > div:nth-of-type(1) {
@@ -471,6 +471,7 @@ header {
 
 .reason2 > div > p {
     margin-bottom: 3vw;
+    margin-right: 3vw;
 }
 
 .reason_wrap .bg-skyblue img {
@@ -610,6 +611,7 @@ header {
 
 .flow_container {
     padding: 5vw 16vw;
+    padding-bottom: 10vw;
 }
 
 .flow_container h1 {
@@ -771,7 +773,8 @@ header {
 }
 
 .course_container {
-    padding: 5vw 17vw;
+    padding: 6vw 17vw;
+    padding-bottom: 5vw;
 }
 
 .course_container h1 {
@@ -920,7 +923,8 @@ header {
 }
 
 .successful_container {
-    padding: 5vw 17vw;
+    padding: 7vw 17vw;
+    padding-bottom: 4vw;
 }
 
 .successful_container h1 {
@@ -928,6 +932,7 @@ header {
     text-align: center;
     font-weight: 900;
     font-size: 2.5vw;
+    margin-bottom: 2vw;
 }
 
 .successful_container img {
@@ -1081,8 +1086,8 @@ header {
 }
 
 .question_container {
-    padding: 5vw 17vw;
-    padding-bottom: 7rem;
+    padding: 6.5vw 17vw;
+    padding-bottom: 10vw;
 }
 
 .question_container h1 {
@@ -1120,11 +1125,11 @@ header {
 }
 
 .information_container {
-    padding: 5vw 17vw;
+    padding: 4vw 17vw;
 }
 
 .information_container {
-    padding-bottom: 2em;
+    padding-bottom: 2vw;
 }
 
 .information_container h1 {
@@ -1216,53 +1221,55 @@ h3 {
         justify-content: space-around;
     }
     .sp_header .header_wrap .blue_letters {
-        font-size: 0.9rem;
-        font-weight: 350;
+        font-size: 4.3vw;
+        font-weight: 900;
         height: 72%;
-        padding: 0.3rem 0.9rem;
-        margin-top: 0.3rem;
-        border-radius: 5px;
+        padding: 1.1vw 3vw;
+        border-radius: 15px;
+        line-height: 1.1;
     }
     .sp_header .sp_flex > div:nth-of-type(2) {
         background-color: #8EE0FF;
+        right: 2.2vw;
     }
     .sp_header .header_box {
+        font-weight: 900;
+        font-size: 3.8vw;
+        right: 4vw;
+        bottom: 2.5vw;
         position: absolute;
-        bottom: 0.8rem;
-        left: 0.8rem;
-        font-weight: 350;
     }
         /* ハンバーガーメニューのスタイル */
     .hamburger-menu {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        width: 30px;
-        height: 100%;
+        width: 7.5vw;
+        height: 38%;
+        right: 2vw;
     }
         /* ハンバーガーメニューのアイコンのスタイル */
     .hamburger-line {
         width: 100%;
-        height: 2px;
+        height: 0.5vw;
         background-color: #fff;
-        margin-bottom: 0.5rem;
         border-radius: 1px;
     }
     .top_container > div:not(.bg-white) {
         background-image: url('../img/topimg-sp.png');
         background-size: cover;
-        height: 100vh;
+        height: 132vw;
         width: 100vw;
     }
     .top_container h1 {
-        font-size: 2.5rem;
-        position: absolute;
-        top: 13rem;
-        left: 1rem;
+        font-size: 10vw;
+        top: 47vw;
+        left: 4vw;
     }
     .top_container .bg-white {
-        padding: 1rem;
+        padding: 2vw;
+        padding-bottom: 4vw;
     }
     .top_container.sp h1 span {
         text-shadow: 0 0 10px #fff,
@@ -1275,30 +1282,27 @@ h3 {
         color: #0071BC;
     }
     .worries_container {
-        padding: 4.5em 3em;
+        padding: 7vw 5vw;
     }
     .worries_wrap1 h2 {
-        font-size: 1.6rem;
+        font-size: 6.2vw;
     }
     .worries_wrap1 h2::after {
-        width: 88%;
-    }
-    .worries_item {
-        left: 7%;
+        width: 80vw;
     }
     .worries_box p {
-        left: 15%;
+        font-size: 3.8vw;
     }
     .worries_wrap2 {
         display: block;
     }
     .worries_wrap2 div {
-        width: 100%;
+        width: 75vw;
         margin: 0 auto;
-        margin-top: 1rem;
+        margin-top: 1vw;
     }
     .achieve_container h1 {
-        font-size: 2.3rem;
+        font-size: 2.3vw;
     }
     .achieve_wrap1 {
         width: 100%;

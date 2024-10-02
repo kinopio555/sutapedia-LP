@@ -524,15 +524,12 @@ a:hover {
 /* 追加 */
 header {
     z-index: 1;
-    height: 7em;
     box-shadow: 0px 20px 22px -3px rgba(0, 0, 0, 0.3);
 }
 .header_wrap1 div {
     right: 2.5vw;
-    bottom: 0.7rem;
 }
 .header_wrap2 .header_button {
-    height: 3em;
     font-weight: 900;
 }
 .header_wrap2 .header_button {
@@ -561,4 +558,26 @@ header {
 }
 .fs-095 {
     font-size: 0.95vw;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        box-shadow: none;
+        height: 17vw;
+    }
+    .header_wrap.sp_flex.bg-blue {
+        align-items: center;
+    }
+    .top_container .bg-white {
+        width: 92vw;
+        margin: 0 auto;
+    }
+    .achieve_container {
+        text-align: center;
+        padding: 9vw 0vw;
+    }
+    .achieve_container h1 {
+        font-size: 9.5vw;
+        letter-spacing: 0.5vw;    
+    }
 }
