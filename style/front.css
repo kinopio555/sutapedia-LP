@@ -1194,30 +1194,6 @@ h3 {
     display: none;
 }
 
-@media screen and (max-width: 850px) {
-    .header_wrap2 .header_button {
-        height: 5vh;
-    }
-    .reason_wrap .bg-skyblue > div {
-        align-items: end;
-    }
-    .reason_wrap .bg-skyblue div div:nth-of-type(2) p:nth-of-type(1) {
-        padding-top: 1rem;
-    }
-    .consul_container {
-        padding: 3em 7em;
-    }
-    .course_container table th {
-        padding: 1rem;
-    }
-    .course_wrap > div:nth-of-type(1) {
-        padding: 0.05rem 0.1rem;
-    }
-    .information_container {
-        padding: 5vw 17vw;
-    }
-}
-
 @media screen and (max-width: 768px) {
     .sp_flex {
         display: flex;
