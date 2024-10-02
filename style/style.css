@@ -580,4 +580,22 @@ header {
         font-size: 9.5vw;
         letter-spacing: 0.5vw;    
     }
+    .worries_box {
+        margin-right: auto;
+        width: 78vw;
+    }
+    .worries_item {
+        height: 5.5vw;
+        width: 5.5vw;
+        margin-right: 0.3vw;
+        top: 1vw;
+    }
+    .worries_wrap2 p {
+        font-weight: 800;
+        padding: 0 0.5vw;
+        font-size: 3.8vw;
+        width: 87vw;
+        margin: 0 auto;
+        letter-spacing: 0.3vw;
+    }
 }
