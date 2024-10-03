@@ -598,4 +598,39 @@ header {
         margin: 0 auto;
         letter-spacing: 0.3vw;
     }
+    .achieve_container .achieve_wrap1+p {
+        font-weight: 900;
+        font-size: 5.5vw;
+        margin-bottom: 2.5vw;
+    }
+    .achieve_box > p:nth-of-type(2) {
+        font-weight: 800;
+        font-size: 3vw;
+    }
+    .achieve_box p span {
+        font-size: 4.7vw;
+        font-weight: 800;
+    }
+    .achieve_box > div:nth-of-type(1) {
+        border-bottom: 0.5vw solid #0071BC;
+        width: 70vw;
+        margin-bottom: 1vw;
+    }
+    .achieve_box > div:nth-of-type(2) {
+        width: 4vw;
+    }
+    .achieve_box p:nth-of-type(4) {
+        font-size: 2.5vw;
+    }
+    .achieve_box div {
+        height: 7.8vw;
+    }
+    .achieve_box {       
+        padding: 1.6vw 0;
+        padding-top: 1.2vw;
+        margin-bottom: 2.8vw;
+    }
+    .achieve_box p:last-child {
+        margin-bottom: 2.5vw;
+    }
 }
