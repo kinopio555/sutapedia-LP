@@ -633,4 +633,30 @@ header {
     .achieve_box p:last-child {
         margin-bottom: 2.5vw;
     }
+    .consul_container h1 span {
+        font-size: 7vw;
+    }
+    .consul_wrap .button {
+        padding: 2.8vw 6vw;
+    }
+    .reason_container .reason_wrap h1 {
+        font-size: 8vw;
+    }
+    .reason_wrap.sp p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .message_container h1 {
+        font-size: 8.5vw;
+        margin-bottom: 3vw;
+    }    
+    .message_wrap .bg-white.lh2 p {
+        margin-bottom: 4vw;
+        font-weight: 500;
+        font-size: 3.5vw;
+        line-height: 1.6;
+    }
+    .message_wrap {
+        width: auto;
+    }    
 }
