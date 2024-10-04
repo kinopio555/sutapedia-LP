@@ -560,6 +560,13 @@ header {
     font-size: 0.95vw;
 }
 
+@media screen and (max-width: 800px) {
+    .flow_wrap > div:nth-of-type(3) .flow_box {
+        padding: 2vw 0;
+        padding-bottom: 1vw;
+    }
+}
+
 @media screen and (max-width: 768px) {
     header {
         box-shadow: none;
@@ -642,6 +649,24 @@ header {
     .reason1 h2 {
         margin-left: auto;
     }
+    .reason1 {
+        margin-bottom: 5vw;
+    }
+    .reason2 {
+        margin-bottom: 5vw;
+    }
+    .reason3 {
+        margin-bottom: 5vw;
+    }
+    .reason4 {
+        margin-bottom: 5vw;
+    }
+    .reason5 {
+        margin-bottom: 5vw;
+    }
+    .reason6 {
+        margin-bottom: 5vw;
+    }
     .reason_container .reason_wrap h1 {
         font-size: 8vw;
     }
@@ -672,6 +697,7 @@ header {
     .flow_wrap {
         display: block;
         width: 100%;
+        bottom: 10vw;
     }
     .flow_box h2::after {
         height: 0.6vw;
@@ -717,6 +743,15 @@ header {
         font-size: 6vw;
         bottom: 1.5vw;
     }
+    .course_container table tr:nth-of-type(3) td:nth-of-type(2) {
+        padding: 2vw 0.4vw;
+    }
+    .course_container table tr:nth-of-type(4) td:nth-of-type(2) {
+        padding: 2vw 0.4vw;
+    }
+    .course_container table tr:nth-of-type(5) td:nth-of-type(2) {
+        padding: 2vw 0.4vw;
+    }
     .successful_container h1 {
         font-size: 7.5vw;
     }
@@ -738,11 +773,11 @@ header {
         font-size: 7vw;
     }
     .question_wrap {
-        padding: 2vw 3vw;
-        margin-bottom: 1.2vw;
+        padding: 1vw 3vw;
     }
     .answer_wrap {
         padding: 2vw 3vw;
+        margin-bottom: 3vw;
     }
     .information_wrap.sp > div:nth-of-type(1) span {
         font-weight: 900;

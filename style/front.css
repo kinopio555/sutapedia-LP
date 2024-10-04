@@ -408,6 +408,7 @@ header {
 
 .reason2 > div:nth-of-type(2) {
     width: 50vw;
+    height: 20vw;
 }
 
 .reason3 > div:nth-of-type(1) {
@@ -508,7 +509,7 @@ header {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: 0% 0%;
+    object-position: 0% 35%;
 }
 
 .reason_box2 .reason_item > div {
@@ -1099,7 +1100,7 @@ header {
     display: flex;
     padding: 0.5vw 1.5vw;
     justify-content: space-between;
-    margin-bottom: 1.2vw;
+    align-items: center;
 }
 
 .question_wrap .bahnschrift {
@@ -1118,6 +1119,7 @@ header {
 }
 
 .answer_wrap {
+    margin-bottom: 1.2vw;
     display: flex;
     padding: 0.5vw 1.5vw;
     justify-content: space-between;
@@ -1483,9 +1485,9 @@ h3 {
         z-index: 1;
     }
     .flow_item.sp_flex p {
-        font-weight: 400;
-        font-size: 1rem;
-        margin-left: 1rem;
+        font-weight: 600;
+        font-size: 3.2vw;
+        margin-left: 3vw;
     }
     .course_container {
         padding: 7vw 0;
@@ -1505,9 +1507,6 @@ h3 {
     }
     .course_container .course_wrap {
         display: block;
-    }
-    .course_container .course_wrap {
-        padding: 0.5rem;
     }
     .course_wrap > div:nth-of-type(1) {
         padding: 0.1rem 0rem;
@@ -1575,7 +1574,8 @@ h3 {
         padding-bottom: 6vw;
     }
     .present_box .present_item .blue_letters {
-        font-size: 5vw;
+        font-size: 4.5vw;
+        margin-left: 3vw;
     }
     .present_box .present_item .blue_letters span {
         font-size: 7vw;
@@ -1621,71 +1621,5 @@ h3 {
     }
     .information_box div:nth-of-type(5) {
         text-align: center;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .sp_header .header_wrap {
-        font-size: 0.9rem;
-    }
-    .worries_container {
-        padding: 4.5em 1.5em;
-    }
-    .worries_wrap1 .lh2 {
-        font-size: 0.85rem;
-    }
-    .worries_wrap1 h2 {
-        font-size: 1.4rem;
-    }
-    .achieve_container {
-        padding: 3em 1em;
-    }
-    .achieve_wrap2 {
-        width: 92vw;
-    }
-    .consul_container {
-        padding: 3em 2em;
-    }
-    .sp.reason_wrap > div > p {
-        font-size: 0.8rem;
-    }
-    .reason4 h2 div:nth-of-type(2) {
-        top: 0.7rem;
-    }
-    .reason5 h2 div:nth-of-type(2) {
-        top: 0.7rem;
-    }
-    .reason6 h2 div:nth-of-type(2) {
-        top: 0.7rem;
-    }
-    .course_container .course_wrap {
-        padding: 0;
-    }
-    .course_box div:nth-of-type(2) {
-        font-size: 0.4rem;
-    }
-    .course_box div:nth-of-type(2) span {
-        font-size: 0.7rem;
-    }
-    .course_wrap > div:nth-of-type(2) > div:nth-of-type(1) > span {
-        font-size: 0.7rem;
-    }
-    .course_container table .square_bracket {
-        font-size: 1.5rem;
-    }
-    .course_box .square_bracket {
-        bottom: 0.5rem;
-    }
-    .sp_table-row .standard {
-        padding: 0;
-    }
-}
-
-@media screen and (max-width: 410px) {
-    .sp.reason_wrap .reason3 > div {
-        margin-bottom: 3rem;
-    }
-    .sp.reason_wrap .reason5 > div {
-        margin-bottom: 2rem;
     }
 }
