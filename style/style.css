@@ -562,7 +562,7 @@ header {
 
 @media screen and (max-width: 800px) {
     .flow_wrap > div:nth-of-type(3) .flow_box {
-        padding: 7vw 0;
+        padding: 11vw 0;
         padding-bottom: 1vw;
     }
 }
@@ -604,6 +604,7 @@ header {
         width: 87vw;
         margin: 0 auto;
         letter-spacing: 0.3vw;
+        margin-top: 7vw;
     }
     .achieve_container .achieve_wrap1+p {
         font-weight: 900;
@@ -612,7 +613,7 @@ header {
     }
     .achieve_box > p:nth-of-type(2) {
         font-weight: 800;
-        font-size: 3vw;
+        font-size: 4vw;
     }
     .achieve_box p span {
         font-size: 4.7vw;
