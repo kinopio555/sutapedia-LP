@@ -753,6 +753,9 @@ header {
     .course_box > div:nth-of-type(2) > div:nth-of-type(2) {
         font-size: 1.5vw;
     }
+    .course_box div:nth-of-type(2) .ls0 {
+        font-size: 2.9vw;
+    }
     .course_container table .square_bracket {
         font-size: 6vw;
         bottom: 1.5vw;
