@@ -1626,3 +1626,9 @@ h3 {
         text-align: center;
     }
 }
+
+@media screen and (max-width:480px){
+    .course_container table {
+        letter-spacing: -0.05em;
+    }
+}
