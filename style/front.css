@@ -1115,7 +1115,7 @@ header {
 .question_container p {
     width: 93%;
     font-weight: 900;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
 }
 
 .answer_wrap {
@@ -1308,6 +1308,7 @@ h3 {
     .achieve_wrap1 {
         width: 90vw;
         font-size: 4.2vw;
+        margin-bottom: 6vw;
     }
     .achieve_container .mb-30 {
         font-size: 1.2rem;
@@ -1468,7 +1469,7 @@ h3 {
         width: 17%;
     }
     .flow_wrap > div:nth-of-type(2) .flow_item.sp_flex div:nth-of-type(1) {
-        padding: 0rem 1.3rem;
+        padding: 5vw;
         width: 15%;
     }
     .flow_wrap > div:nth-of-type(3) .flow_item.sp_flex div:nth-of-type(1) {
@@ -1539,9 +1540,9 @@ h3 {
     }
     .successful_wrap div:nth-of-type(3) {
         background-color: #AED5FF;
-        padding: 0.4rem 0.8rem;
-        font-size: 1.1rem;
-        font-weight: 350;
+        padding: 0.4vw 2vw;
+        font-size: 4vw;
+        font-weight: 900;
     }
     .successful_wrap div:nth-of-type(4) {
         font-weight: 500;
@@ -1595,7 +1596,7 @@ h3 {
         padding: 6vw 5vw;
     }
     .question_container p {
-        font-size: 2.5vw;
+        font-size: 2.7vw;
         font-weight: 900;
         padding: 0vw 3vw;
     }
