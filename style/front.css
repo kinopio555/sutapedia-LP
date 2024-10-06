@@ -1678,23 +1678,25 @@ h3 {
   
   #openPopup {
     cursor: pointer;
+    font-size: unset;
   }
   
-  .information_container {
+  .informations_container {
     margin: 5% 0;
+    padding: 3vw 8vw;
   }
   
-  tr {
+  .informations_container tr {
     line-height: 1.75;
     border-bottom: 1px solid #f5f5f5;
   }
   
-  td {
+  .informations_container td {
     padding: 1rem;
     min-width: 10rem;
   }
   
-  .course_wrap {
+  .informations_container .course_wrap {
     display: flex;
     padding: 1.5%;
     background-color: #fceff4;
@@ -1703,36 +1705,46 @@ h3 {
     padding-bottom: 5%;
   }
   
-  .course_item {
+  .informations_container .course_item {
     background-color: #d7f7f7;
     padding: 3% 0.7%;
     width: 29%;
   }
-  .f-16 {
+  .informations_container .f-16 {
     font-size: clamp(10px, 2.1vw, 15px);
     letter-spacing: 0;
   }
+
   
   @media screen and (max-width: 768px) {
-    .information_container {
+    .informations_container {
       margin: 15% 0;
     }
     .popup {
       padding: 1.5% 5%;
       width: 80%;
   }
-    td {
+    .informations_container td {
       display: block;
       padding: 0.5rem;
     }
   
-    td:nth-child(1) {
+    .informations_container td:nth-child(1) {
       font-weight: bold;
       padding-bottom: 0;
     }
   
-    td:nth-child(2) {
+    .informations_container td:nth-child(2) {
       font-weight: normal;
+    }
+    .informations_wrap.f-18{
+      font-size: 3.5vw !important;
+    }
+    .informations_container {
+        padding: unset;
+    }
+    .blue_letters.f-30 {
+        font-size: 6vw !important;
     }
   }
   
