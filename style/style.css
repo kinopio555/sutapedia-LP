@@ -434,6 +434,13 @@ display要素
 .block {
     display: block;
 }
+.d-none{
+    display: none;
+}
+.o-none {
+    opacity: 0;
+    cursor: none;
+}
 
 /* -----------------------------------------------
   position要素
