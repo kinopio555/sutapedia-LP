@@ -5,12 +5,24 @@ body > div {
 header { 
     display: flex;
     height: 15vh;
+    position: fixed;
+    background-color: white;
+    z-index: 200 !important;
+}
+main{
+    margin-top: 15vh;
+}
+@media screen and (max-width: 768px) {
+    main{
+        margin-top: 17vw;
+    }
 }
 
 .header_wrap1 {
     position: relative;
     width: 38vw;
     font-weight: 900;
+    background-color: white;
 }
 
 .header_wrap1 div {
@@ -1243,27 +1255,75 @@ h3 {
     .sp_header .header_box {
         font-weight: 900;
         font-size: 3.8vw;
-        right: 4vw;
+        right: 2vw;
         bottom: 2.5vw;
         position: absolute;
     }
         /* ハンバーガーメニューのスタイル */
-    .hamburger-menu {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        width: 7.5vw;
-        height: 38%;
-        right: 2vw;
-    }
-        /* ハンバーガーメニューのアイコンのスタイル */
-    .hamburger-line {
-        width: 100%;
-        height: 0.5vw;
-        background-color: #fff;
-        border-radius: 1px;
-    }
+/* Hide the menu initially */
+#hamburger-contents {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    height: 100vh;
+    overflow: scroll;
+    background-color: #0072BD;
+    color: white;
+    transition: right 0.3s ease;
+    z-index: 99;
+}
+
+/* Hamburger menu active state (when clicked) */
+.hamburger-active#hamburger-contents {
+    right: 0;
+}
+
+/* Rotate the lines to form X when menu is open */
+.hamburger-active .hamburger-line:nth-child(1) {
+    transform: rotate(45deg) translate(2vw, 2vw);
+}
+
+.hamburger-active .hamburger-line:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-active .hamburger-line:nth-child(3) {
+    transform: rotate(-45deg) translate(2.2vw, -2.1vw);
+}
+
+/* Basic styles for the menu */
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 7.5vw;
+    height: 38%;
+    cursor: pointer;
+    z-index: 999;
+    margin-right: 10px;
+}
+
+.hamburger-line {
+    width: 100%;
+    height: 0.5vw;
+    background-color: #fff;
+    border-radius: 1px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.hamburger-box{
+margin: auto;
+padding-top: 10vw;
+padding-left: 5vw;
+}
+.block{
+    display: block;
+}
+.head_link_txt{
+    font-size: 7vw;
+    margin-bottom: 6vw;
+}
     .top_container > div:not(.bg-white) {
         background-image: url('../img/topimg-sp.png');
         background-size: cover;
@@ -1748,3 +1808,11 @@ h3 {
     }
   }
   
+  
+  @media screen and (max-width: 480px) {
+    .hamburger-box {
+        margin: auto;
+        padding-top: 30vw;
+        padding-left: 10vw;
+    }
+  }

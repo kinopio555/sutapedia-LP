@@ -37,6 +37,11 @@ button {
     border: none;
 }
 
+.contents{
+    display: contents;
+    cursor: pointer;
+}
+
 img {
     max-width: 100%;
     vertical-align: bottom;
@@ -291,7 +296,7 @@ letter-spacing
 .ls-0\.1 {
     letter-spacing: -0.1em;
 }
-.ls- {
+.ls-0\.05 {
     letter-spacing: -0.05em;
 }
 
@@ -574,6 +579,7 @@ header {
     header {
         box-shadow: none;
         height: 17vw;
+        width: 100%;
     }
     .header_wrap.sp_flex.bg-blue {
         align-items: center;
